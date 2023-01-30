@@ -17,10 +17,10 @@
     "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.sirius.supervia"
+      "bundleIdentifier": "com.floet.veterinary-control"
     },
     "android": {
-      "package": "com.sirius.supervia",
+      "package": "com.floet.veterinary-control",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/adaptive-icon.png",

@@ -4,13 +4,13 @@
       "developmentClient": true,
       "distribution": "internal",
       "env": {
-        "API_URL": "https://2blf3i4oxa.execute-api.us-east-1.amazonaws.com/prod"
+        "API_URL": ""
       }
     },
     "qa": {
       "distribution": "internal",
       "env": {
-        "API_URL": "https://2blf3i4oxa.execute-api.us-east-1.amazonaws.com/prod"
+        "API_URL": ""
       },
       "android": {
         "buildType": "apk",
