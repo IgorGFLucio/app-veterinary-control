@@ -31,7 +31,7 @@ export const useAuth = create(
       };
     },
     {
-      name: "supervia-auth",
+      name: "veterinary-auth",
       getStorage: () => AsyncStorage,
     }
   )
