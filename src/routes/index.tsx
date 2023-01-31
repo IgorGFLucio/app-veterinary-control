@@ -6,6 +6,7 @@ import { StackParamsList } from "./types";
 // Screens
 import HomeScreen from "@home/screens/Home";
 import LoginScreen from "@auth/screens/Login/Login";
+import RegisterScreen from "@auth/screens/Register/Register";
 
 enableScreens();
 const Stack = createNativeStackNavigator<StackParamsList>();
@@ -26,6 +27,7 @@ const Routes = () => {
         {/* Auth Routes */}
         <Stack.Group screenOptions={{ animation: ANIMATION }}>
           <Stack.Screen name="Login" component={LoginScreen} />
+          <Stack.Screen name="Register" component={RegisterScreen} />
         </Stack.Group>
       </Stack.Navigator>
     </NavigationContainer>

@@ -12,4 +12,5 @@ export type RouteProps<T extends keyof StackParamsList = Route.Home> =
 export enum Route {
   Home = "Home",
   Login = "Login",
+  Register = "Register",
 }
